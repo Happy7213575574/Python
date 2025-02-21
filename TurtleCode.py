@@ -1,15 +1,3 @@
-'''
-import turtle
-
-screen = turtle.Screen()
-screen.setup(1.0, 1.0)
-
-art = turtle.turtle()
-
-art.penDown
-art.forward(5)
-'''
-
 import turtle as tu
 from time import sleep as s
 
