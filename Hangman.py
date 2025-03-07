@@ -1,7 +1,9 @@
 # import moudles that are needed
 from random import choice
 from time import sleep
+
 from words import dictionary
+from hangmanGraphic import graphic
 
 # set up varables needed
 player_score = 0
@@ -10,107 +12,6 @@ exit = False
 
 # set up functions
 def hedgeman(hangman):
-  graphic = [
-    ''' ''',
-    ''' 
-      ¦
-      ¦
-      ¦
-      ¦
-      ¦
-    ============
-    ''',
-    '''
-      +
-      ¦
-      ¦
-      ¦
-      ¦
-      ¦
-    ============
-    ''',
-    '''
-      +-------
-      ¦
-      ¦
-      ¦
-      ¦
-      ¦
-    ============
-    ''',
-    '''
-    + -------+
-    ¦
-    ¦
-    ¦
-    ¦
-    ¦
-  ============
-  ''', 
-  '''
-    + -------+
-    ¦        |
-    ¦
-    ¦
-    ¦
-    ¦
-  ============
-  ''', 
-  '''
-    + -------+
-    ¦        |
-    ¦        o
-    ¦
-    ¦
-    ¦
-  ============
-  ''', 
-  '''
-    + -------+
-    ¦        |
-    ¦        o
-    ¦        |
-    ¦
-    ¦
-  ============
-  ''', 
-  '''
-    +-------+
-    ¦       |
-    ¦       o
-    ¦      -|
-    ¦
-    ¦
-  ============
-  ''', 
-  '''
-    +-------+
-    ¦       |
-    ¦       o
-    ¦      -|-
-    ¦ 
-    ¦
-  ============
-  ''', 
-  '''
-    +-------+
-    ¦       |
-    ¦       o
-    ¦      -|-
-    ¦      /
-    ¦
-  ============
-  ''', 
-  '''
-    +-------+
-    ¦       |
-    ¦       o
-    ¦      -|-
-    ¦      / \ \
-    ¦
-  ============
-  '''
-  ]
   print(graphic[hangman])
   return
 # end function
@@ -126,8 +27,8 @@ def game():
   word = choice(dictionary)
   word_length = len(word)
   clue = word_length * ['_']
-  tries = 11
-  guesses_left = 11
+  tries = len(graphic) - 1
+  guesses_left = len(graphic) - 1
   letters_tried = ''
   x = 0
   letters_wrong = 0
