@@ -2,6 +2,7 @@
 from random import choice
 from time import sleep
 
+#import lists
 from F1Drivers import HistoricDriversList, CurrentDriversList
 from F1Teams import HistoricalTeamsList, CurrentTeamsList
 
