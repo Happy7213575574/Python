@@ -2,8 +2,10 @@
 from random import choice
 from time import sleep
 
-from words import dictionary
-from hangmanGraphic import graphic
+
+from FormulaGraphic import graphic
+
+breakpoint()
 
 # set up varables needed
 player_score = 0
