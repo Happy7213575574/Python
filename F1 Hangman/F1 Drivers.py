@@ -1,3 +1,43 @@
-DriversList = [
-    
+CurrentDriversList = [
+    'Pieere Gasly',
+    'Jack Doohan',
+    'Lance Stroll',
+    'Fernando Alonso',
+    'Charles Leclerc',
+    'Lewis Hamilton',
+    'Esteban Ocon',
+    'Oliver Bearman',
+    'Nico Hulkenberg',
+    'Garbiel Bortoleto',
+    'Oscar Piastri',
+    'Lando Norris',
+    'George Russell',
+    'Andrea Kimi Antonelli',
+    'Isack Hadjar',
+    'Yuki Tsunoda',
+    'Max Verstappen',
+    'Liam Lawson',
+    'Alexander Albon',
+    'Carlos sainz'
+]
+
+HistoricDriversList = [
+    'Ayrton Senna',
+    'Niki Lauda',
+    'Michael Schumacher',
+    'Alain Prost',
+    'Gilles Villeneuve',
+    'James Hunt',
+    'Mika Hakkinen',
+    'Juan Manuel Fangio',
+    'Jackie Stewart',
+    'Jim Clark',
+    'Emerson Fittipaldi',
+    'Graham Hill',
+    'Nigel Mansell',
+    'Stirling Moss',
+    'Jack Brabham',
+    'Mario Andretti',
+    'Damon Hill',
+    'Jenson Button'
 ]
