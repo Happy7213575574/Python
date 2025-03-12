@@ -9,6 +9,8 @@ from FormulaGraphic import graphic
 
 # set up dictionary
 dictionary = CurrentDriversList + HistoricDriversList + CurrentTeamsList + HistoricalTeamsList
+CurrentList = CurrentDriversList + CurrentTeamsList
+HistoricList = HistoricDriversList + HistoricalTeamsList
 
 # set up varables needed
 player_score = 0
