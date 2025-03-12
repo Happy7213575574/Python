@@ -2,10 +2,13 @@
 from random import choice
 from time import sleep
 
+from F1Drivers import HistoricDriversList, CurrentDriversList
+from F1Teams import HistoricalTeamsList, CurrentTeamsList
 
 from FormulaGraphic import graphic
 
-breakpoint()
+# set up dictionary
+dictionary = CurrentDriversList + HistoricDriversList + CurrentTeamsList + HistoricalTeamsList
 
 # set up varables needed
 player_score = 0
