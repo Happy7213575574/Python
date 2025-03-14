@@ -4,12 +4,12 @@ from time import sleep
 
 #import lists
 from Alldictonaries import Wordsdictionary
-
-#import lists
 from Alldictonaries import HistoricalTeamsList, CurrentTeamsList, HistoricDriversList, CurrentDriversList
 
+# import graphic
 from hangmanGraphic import graphic
 
+# set up dictionary
 dictionary = Wordsdictionary + CurrentDriversList + HistoricDriversList + CurrentTeamsList + HistoricalTeamsList
 
 # set up varables needed
