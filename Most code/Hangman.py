@@ -2,8 +2,15 @@
 from random import choice
 from time import sleep
 
-from words import dictionary
+#import lists
+from Alldictonaries import Wordsdictionary
+
+#import lists
+from Alldictonaries import HistoricalTeamsList, CurrentTeamsList, HistoricDriversList, CurrentDriversList
+
 from hangmanGraphic import graphic
+
+dictionary = Wordsdictionary + CurrentDriversList + HistoricDriversList + CurrentTeamsList + HistoricalTeamsList
 
 # set up varables needed
 player_score = 0

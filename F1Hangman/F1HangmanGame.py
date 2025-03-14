@@ -3,10 +3,9 @@ from random import choice
 from time import sleep
 
 #import lists
-from F1Drivers import HistoricDriversList, CurrentDriversList
-from F1Teams import HistoricalTeamsList, CurrentTeamsList
+from Alldictonaries import HistoricalTeamsList, CurrentTeamsList, HistoricDriversList, CurrentDriversList
 
-from FormulaGraphic import graphic
+from hangmanGraphic import graphic
 
 # set up dictionary
 dictionary = CurrentDriversList + HistoricDriversList + CurrentTeamsList + HistoricalTeamsList
