@@ -1,3 +1,7 @@
+import tkinter as tk
+
+root = tk.Tk(screenName=None, baseName=None, className='Tk', useTk=1)
+
 ''''
 import os
 import pymsgbox
@@ -7,13 +11,13 @@ if 'DISPLAY' not in os.environ:
     pass
 '''
 
-#'''
+'''
 import os
 
 if os.environ.get('DISPLAY','') == '':
     print('no display found. Using :1.0')
     os.environ.__setitem__('DISPLAY', 'Display 1')
-#'''
+'''
 
 
 import turtle as tu
