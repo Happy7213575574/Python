@@ -7,7 +7,7 @@ file = open("Code for School/Coins.txt", "r")
 
 #read file
 for line in file:
-    data = file.readline()
+    data = file.read()
 #end for
 
 #close file
