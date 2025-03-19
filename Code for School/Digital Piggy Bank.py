@@ -1,7 +1,6 @@
 #main code for digital piggy bank
 
 #get previous ammount from file
-
 #open file
 file = open("Coins.txt", "r")
 
