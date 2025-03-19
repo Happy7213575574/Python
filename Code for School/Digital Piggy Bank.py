@@ -1,10 +1,22 @@
-#get previous ammount from file
-file = open("dpb.txt", "r")
+#main code for digital piggy bank
 
+#get previous ammount from file
+
+#open file
+file = open("Coins.txt", "r")
+
+#read file
 for line in file:
     data = file.readline()
+#end for
+
+#close file
 file.close()
+
+#declare total
 total = float(data)
+
+#dispaly previous total
 print(f"Your previous total was £{total}.")
 
 #declare variables
