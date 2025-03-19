@@ -2,7 +2,8 @@
 
 #get previous ammount from file
 #open file
-file = open("Coins.txt", "r")
+#file = open("Coins.txt", "r")
+file = open("Code for School/Coins.txt", "r")
 
 #read file
 for line in file:
