@@ -24,7 +24,7 @@ valid = False
 
 #run while loop until user enters X
 while valid == False:
-    coinInput = input("Enter a coin (enter X to end program): ").lower()
+    coinInput = input("Enter a coin to add (enter X to end program): ").lower()
     
     #check input
     if coinInput == "x":
