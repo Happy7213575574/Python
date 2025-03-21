@@ -4,13 +4,12 @@ from time import sleep
 
 #import lists
 from Alldictonaries import Wordsdictionary
-from Alldictonaries import HistoricalTeamsList, CurrentTeamsList, HistoricDriversList, CurrentDriversList
 
 # import graphic
 from hangmanGraphic import graphic
 
 # set up dictionary
-dictionary = Wordsdictionary + CurrentDriversList + HistoricDriversList + CurrentTeamsList + HistoricalTeamsList
+dictionary = Wordsdictionary
 
 # set up varables needed
 player_score = 0

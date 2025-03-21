@@ -1,3 +1,5 @@
+global CurrentDriversList, HistoricDriversList, CurrentTeamsList, HistoricalTeamsList, Wordsdictionary
+
 CurrentDriversList = [
     'Pieere Gasly',
     'Jack Doohan',
