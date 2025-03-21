@@ -29,10 +29,6 @@ while valid == False:
     #check input
     if coinInput == "x":
         print(f"You have £{total}.")
-        #open file to be written to and close file
-        file = open("Coins.txt", "w")
-        file.write(str(total))
-        file.close()
         valid = True
         #end while
     
@@ -47,5 +43,8 @@ while valid == False:
     
     #print total
     print(f"You have £{total}.")
+#open file to be written to and close file
+file = open("Coins.txt", "w")
+file.write(str(total))
+file.close()
 #end program
-        
