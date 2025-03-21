@@ -44,7 +44,7 @@ while valid == False:
     #print total
     print(f"You have £{total}.")
 #open file to be written to and close file
-file = open("Coins.txt", "w")
+file = open("Code for School/Coins.txt", "w")
 file.write(str(total))
 file.close()
 #end program
