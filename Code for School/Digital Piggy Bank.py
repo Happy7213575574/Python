@@ -37,6 +37,7 @@ while valid == False:
         for i in range(len(Coins)):
             if coinInput == Coins[i][0]:
                 total += Coins[i][1]
+                total = round(total, 2)
             #end if
         #end for
     #end if
