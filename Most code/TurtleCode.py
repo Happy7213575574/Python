@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import Tk
 
-class tkinter:Tk(screenName='Display 1: PLX2283HSU', baseName=None, className='Tk', useTk=True, sync=False, use='0')
+class tkinter:Tk(screenName='VcXsrv Server - Display Host', baseName=None, className='Tk', useTk=True, sync=False, use='1')
 
 '''
 import tkinter as tk
