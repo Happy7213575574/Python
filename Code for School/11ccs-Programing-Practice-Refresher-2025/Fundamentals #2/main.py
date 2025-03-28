@@ -63,8 +63,6 @@ these are not available in Python, we use [start:end]
 
 # calcualte how to extract just the surname!
 
-
-
 # lets' dynamically get the surname from any full name
 # ask for input of full name and use the .find() methid to search for a space then extract the name
 
