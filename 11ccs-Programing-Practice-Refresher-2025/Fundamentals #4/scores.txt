@@ -1,0 +1,10 @@
+"Arsenal v Aston Villa", 2-2
+"Brighton and Hove Albion v Burnley", 1-1
+"Chelsea v Crystal Palace", 9-0
+"Everton v Fulham", 3-2
+"Leeds United v Liverpool", 2-1
+"Leicester City v Manchester City", 2-2
+"Manchester United v Newcastle United", 4-3
+"Sheffield United v Southampton",0-0
+"Tottenham Hotspur v West Bromwich Albion", 3-3
+"West Ham United v Wolverhampton Wanderers", 2-1

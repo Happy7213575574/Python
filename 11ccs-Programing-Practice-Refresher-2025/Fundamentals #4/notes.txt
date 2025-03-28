@@ -1,0 +1,12 @@
+scores = open("scores.txt","r") 		# open the file called 'scores.txt'
+
+eof = False								# boolean to track end of file
+while not eof:
+	score_line = scores.readline()		# read a line
+	if score_line == "":				# check if empty text
+		eof = Trueclear
+
+	else:
+		print(score_line)
+	#end if
+#end for 
