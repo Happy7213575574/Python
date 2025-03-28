@@ -12,11 +12,15 @@ short program to remind us of the following basics:-
 
 
 
-
 # write a python command to ask the user for their eye colour
 # validate that the eye colour is red or green - print you are a lizard, else , print some other message
 
-
+EyeColour = input("Enter your eye colour: ")
+if EyeColour == "red" or EyeColour == "green":
+    print("You are a lizard.")
+else:
+    print("You are not a lizard.")
+#end if
 
 '''
 write a * condition-controlled * while loop that asks the user for their heigth in metres as a decimal and 
@@ -25,8 +29,22 @@ if it is invliad, display and appropriate message
 if it is valid, display "you are accepted" and exit the while loop
 '''
 
-
-
+valid = False
+while valid == False:
+    try:
+        height = float(input("Enter your height in meters: "))
+        if height > 1.2 and height < 1.9:
+            print("You are accepted.")
+            valid = True
+            #end while
+        else:
+            print("Invalid height, please enter a value between 1.2 and 1.9.")
+            continue
+        #end if
+    except ValueError:
+        print("Please enter a number.")
+        continue
+    
 #end while
 
 '''
@@ -34,6 +52,12 @@ write a count-controlled while loop to print each of the names in the following 
 names = ["bob","john","sarah","james","joe"]
 '''
 
+names = ["bob","john","sarah","james","joe"]
+i = 0
 
-
+while i < len(names):
+    print(f"{names[i]} has {len(names[i])} characters.")
+    i += 1
 #end while
+
+#end of program
