@@ -17,10 +17,14 @@ covering the following Programming theory
 
 # arrays - there are 1D and 2D arrays and you can view these as grids with rows and columns for 2D
 
+#declare variables
 student_scores = [2,3,4,5,6,4,2,0,5,6]
 student_scores[2] = "*"
+
+#display list
 print(student_scores)
 
+#declare list
 student_scores = [
 	["Fred", 30],
 	["Bob", 10],
@@ -29,9 +33,12 @@ student_scores = [
 	["Drew", 2],
 	["Zak",2]
 ]
+#end list
 
+#loop thorugh the list
 for student in student_scores:
 	print(student[1])
+#end for
 
 # a sub program is part of a program that we can reuse - often call a function - Python only has functions
 # see notes file
