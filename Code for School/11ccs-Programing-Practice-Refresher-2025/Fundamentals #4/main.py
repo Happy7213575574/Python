@@ -16,9 +16,9 @@ examples
 *  scores = open("football_scores,"w+)
  
 '''
-scores = open("scores.txt","r") # file handle variable
+scores = open("Code for School/scores.txt","r") # file handle variable
 
-eof = False			# set a boolean to track end of file
+eof = False # set a boolean to track end of file
 
 while not eof:
 
@@ -33,7 +33,4 @@ while not eof:
 
 scores.close() # close the file
 
-	
-	
-
-
+#end of program
