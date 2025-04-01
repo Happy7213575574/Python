@@ -47,6 +47,3 @@ for student in student_scores:
 
 from random import randint as ri
 
-
-
-
