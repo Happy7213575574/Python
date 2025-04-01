@@ -17,14 +17,14 @@ covering the following Programming theory
 
 # arrays - there are 1D and 2D arrays and you can view these as grids with rows and columns for 2D
 
-#declare variables
+#declare 1D array
 student_scores = [2,3,4,5,6,4,2,0,5,6]
 student_scores[2] = "*"
 
 #display list
 print(student_scores)
 
-#declare list
+#declare 2D array
 student_scores = [
 	["Fred", 30],
 	["Bob", 10],
