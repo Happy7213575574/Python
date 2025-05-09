@@ -3,9 +3,7 @@ from random import choice
 from time import sleep
 
 #import lists
-from Alldictonaries import HistoricalTeamsList, CurrentTeamsList, HistoricDriversList, CurrentDriversList
-
-from hangmanGraphic import graphic
+from GlobalFunctions import HistoricalTeamsList, CurrentTeamsList, HistoricDriversList, CurrentDriversList, graphic
 
 # set up dictionary
 dictionary = CurrentDriversList + HistoricDriversList + CurrentTeamsList + HistoricalTeamsList

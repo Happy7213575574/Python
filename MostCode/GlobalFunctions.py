@@ -1,4 +1,123 @@
-global CurrentDriversList, HistoricDriversList, CurrentTeamsList, HistoricalTeamsList, Wordsdictionary
+def numberInput():
+  valid = False
+  while valid != True:
+    Input = input('Please enter a number: ')
+    if Input == 'x' or Input == 'X':
+      print('Ending program.')
+      valid = True
+    else:
+      try:
+        Input = int(Input)
+        valid = True
+      except ValueError:
+        print('That is not a number.') 
+  return Input
+#end def
+
+graphic = [
+    ''' ''',
+    '''
+    ============
+    ''',
+    ''' 
+      ¦
+      ¦
+      ¦
+      ¦
+      ¦
+    ============
+    ''',
+    '''
+      +
+      ¦
+      ¦
+      ¦
+      ¦
+      ¦
+    ============
+    ''',
+    '''
+      +-------
+      ¦
+      ¦
+      ¦
+      ¦
+      ¦
+    ============
+    ''',
+    '''
+    + -------+
+    ¦
+    ¦
+    ¦
+    ¦
+    ¦
+  ============
+  ''', 
+  '''
+    + -------+
+    ¦        |
+    ¦
+    ¦
+    ¦
+    ¦
+  ============
+  ''', 
+  '''
+    + -------+
+    ¦        |
+    ¦        o
+    ¦
+    ¦
+    ¦
+  ============
+  ''', 
+  '''
+    + -------+
+    ¦        |
+    ¦        o
+    ¦        |
+    ¦
+    ¦
+  ============
+  ''', 
+  '''
+    +-------+
+    ¦       |
+    ¦       o
+    ¦      -|
+    ¦
+    ¦
+  ============
+  ''', 
+  '''
+    +-------+
+    ¦       |
+    ¦       o
+    ¦      -|-
+    ¦ 
+    ¦
+  ============
+  ''', 
+  '''
+    +-------+
+    ¦       |
+    ¦       o
+    ¦      -|-
+    ¦      /
+    ¦
+  ============
+  ''', 
+  '''
+    +-------+
+    ¦       |
+    ¦       o
+    ¦      -|-
+    ¦      / \ 
+    ¦
+  ============
+  '''
+  ]
 
 CurrentDriversList = [
     'Pieere Gasly',

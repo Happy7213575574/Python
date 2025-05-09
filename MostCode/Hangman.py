@@ -2,11 +2,8 @@
 from random import choice
 from time import sleep
 
-#import lists
-from Alldictonaries import Wordsdictionary
-
-# import graphic
-from hangmanGraphic import graphic
+#import needed data
+from MostCode.GlobalFunctions import Wordsdictionary, graphic
 
 # set up dictionary
 dictionary = Wordsdictionary
