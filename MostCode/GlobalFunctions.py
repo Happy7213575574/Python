@@ -1,3 +1,11 @@
+def stringInput(reason):
+  valid = False
+  while valid != True:
+    Input = input(f'Please enter text for {reason}: ')
+    if Input == '':
+      valid = True
+#end def
+
 def numberInput():
   valid = False
   while valid != True:
