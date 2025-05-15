@@ -1,27 +1,3 @@
-from tkinter import *
-from tkinter import ttk
-from tkinter import Tk
-import os
-import pymsgbox
-
-class tkinter:Tk(screenName='0', baseName=None, className='Tk', useTk=True, sync=False, use='0')
-
-'''
-root = tk.Tk(screenName=None, baseName=None, className='Tk', useTk=1)
-'''
-
-''''
-pymsgbox.alert('Hi Afreeth ', 'Welcome')
-if 'DISPLAY' not in os.environ: 
-    pass
-'''
-
-'''
-if os.environ.get('DISPLAY','') == '':
-    print('no display found. Using :1.0')
-    os.environ.__setitem__('DISPLAY', 'Display 1')
-'''
-
 
 import turtle as tu
 from time import sleep as s
