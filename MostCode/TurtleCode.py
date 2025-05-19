@@ -17,7 +17,7 @@ left = 110 # set the angle varibles
 right = 90
 t.setposition(0,0)
 
-for x in range(2): # make the loop to control
+for x in range(1): # make the loop to control
     for c in range(len(colours)):
         t.begin_fill() # start filling
         t.color(colours[c]) # set the colour
