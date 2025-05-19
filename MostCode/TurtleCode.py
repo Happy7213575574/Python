@@ -57,6 +57,7 @@ t.pensize(5) # make the pen thicker
 t.color('black') # set the colour
 t.circle(radius) # draw the circle
 
+#draw circle
 radius = -200
 t.penup()
 t.setposition(-163.29, 213.36)
@@ -67,7 +68,10 @@ t.color ('cyan')
 t.circle(radius)
 t.end_fill()
 
-radius = radius - 1
+t.pensize(15) # make the pen thicker
+
+#draw outline
+radius = radius - 8
 t.color ('black')
 t.circle(radius)
 
