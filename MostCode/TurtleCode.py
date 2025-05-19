@@ -1,4 +1,3 @@
-
 import turtle as tu
 from time import sleep as s
 
