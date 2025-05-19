@@ -15,7 +15,7 @@ colours = ['alice blue', 'antique white', 'aquamarine', 'azure', 'beige', 'bisqu
 i = 0 # set the offest variable
 left = 110 # set the angle varibles
 right = 90
-t.setposition(0,0)
+t.setposition(0,0) #set the turtle
 
 for x in range(1): # make the loop to control
     for c in range(len(colours)):
