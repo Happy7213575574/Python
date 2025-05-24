@@ -70,9 +70,9 @@ t.end_fill()
 
 t.pensize(15) # make the pen thicker
 
-t.setposition(-166.40, 213.36)
+t.setposition(-166.55, 213.36)
 #draw outline
-radius -= 1
+radius -= 3.5
 t.color ('black')
 t.circle(radius)
 
