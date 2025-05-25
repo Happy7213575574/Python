@@ -11,7 +11,7 @@ screen.addshape("person.gif")  # Add your image file here
 #make the turtle
 t = Tu()
 t.shape("person.gif")  # Set the turtle to use the image
-tu.done()
+#tu.done()
 t.speed(50) # set it's speed
 t.setposition(0,0) #set the turtle
 
