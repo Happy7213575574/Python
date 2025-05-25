@@ -76,8 +76,21 @@ radius -= 3.5
 t.color ('black')
 t.circle(radius)
 
-t.hideturtle() # take the turtle off screen
 s(30) #wait 30 seconds
 screen.clear() # clear the screen
+
+screen.addshape("Happy7213575574/Python/MostCode/person.gif")  # Add your image file here
+
+t.shape("Happy7213575574/Python/MostCode/person.gif")  # Set the turtle to use the image
+tu.done()
+t.speed(50) # set it's speed
+t.setposition(0,0) #set the turtle
+
+t.pensize(15) # make the pen thicker
+
+#draw outline
+radius = 200
+t.color ('black')
+t.circle(radius)
 
 screen.mainloop() # make sure the screen does not turn off
