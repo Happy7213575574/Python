@@ -22,12 +22,12 @@ person_shape = [
 ]
 
 # Register and use the shape
-turtle.register_shape("stick_person", person_shape)
+tu.register_shape("stick_person", person_shape)
 
 #make the turtle
 t = tu.Turtle()
 t.shape("stick_person")
-turtle.done()
+tu.done()
 t.speed(50) # set it's speed
 
 t.setposition(0,0) #set the turtle
