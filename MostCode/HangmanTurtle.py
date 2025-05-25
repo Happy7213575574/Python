@@ -5,8 +5,6 @@ import turtle as tu
 screen = tu.Screen()
 screen.setup(1.0, 1.0)
 
-import turtle
-
 #Make the person for turtle
 person_shape = [
     (0, -20),    # bottom
