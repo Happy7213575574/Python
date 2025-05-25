@@ -1,5 +1,6 @@
 #import modules
 import turtle as tu
+from turtle import Turtle as Tu
 
 # Fullscreen the canvas
 screen = tu.Screen()
@@ -25,7 +26,7 @@ person_shape = [
 tu.register_shape("stick_person", person_shape)
 
 #make the turtle
-t = tu.Turtle()
+t = Tu()
 t.shape("stick_person")
 tu.done()
 t.speed(50) # set it's speed
