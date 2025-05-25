@@ -7,7 +7,7 @@ screen.setup(1.0, 1.0)
 
 import turtle
 
-#Make the person
+#Make the person for turtle
 person_shape = [
     (0, -20),    # bottom
     (0, 20),     # body up
