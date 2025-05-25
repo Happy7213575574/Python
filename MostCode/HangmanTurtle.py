@@ -32,4 +32,6 @@ t.shape("stick_person")
 turtle.done()
 t.speed(50) # set it's speed
 
+t.setposition(0,0) #set the turtle
+
 screen.mainloop() # make sure the screen does not turn off
