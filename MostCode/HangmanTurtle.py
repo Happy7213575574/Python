@@ -33,4 +33,11 @@ t.speed(50) # set it's speed
 
 t.setposition(0,0) #set the turtle
 
+t.pensize(15) # make the pen thicker
+
+#draw outline
+radius = 200
+t.color ('black')
+t.circle(radius)
+
 screen.mainloop() # make sure the screen does not turn off
