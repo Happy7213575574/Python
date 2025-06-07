@@ -19,11 +19,9 @@ def CollatzSequence():
       if NumberInput == 0 or Number == 1:
         break
       elif  Number % 2 == 0:
-        print('Operation 1')
         Number =  Number / 2
         steps = steps + 1
       elif Number % 2 != 0:
-        print('Operation 2')
         Number = (3 * Number) + 1
         steps = steps + 1
       else:
