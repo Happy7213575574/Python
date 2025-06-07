@@ -1,29 +1,37 @@
-from GlobalFunctions import numberInput
-
 def CollatzSequence():
+  from GlobalFunctions import numberInput
+  
   end = False
   
+  print('This is a collatz sequence tester.')
+  
   while end != True:
-    # run function  numberInput
+    print('Enter a zero to end the program')
     NumberInput = numberInput()
+    Number = NumberInput
 
     # count the steps
     steps = 0
-
+    print('bob')
+    
     # do the squence
     for i in range(9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
-      if  NumberInput == 1 or NumberInput == 0:
+      if NumberInput == 0 or Number == 1:
         break
-      elif  NumberInput % 2 == 0:
-          NumberInput =  NumberInput / 2
-          steps = steps + 1
+      elif  Number % 2 == 0:
+        print('Operation 1')
+        Number =  Number / 2
+        steps = steps + 1
+      elif Number % 2 != 0:
+        print('Operation 2')
+        Number = (3 * Number) + 1
+        steps = steps + 1
       else:
-          NumberInput = (3 * NumberInput) + 1
-          steps = steps + 1
+        print('An error as occured')
       # end if
     #end for
               
-    if  NumberInput == 1:
+    if  Number == 1:
         print("It took", steps, "steps")
     else:
         print("The  number didn't reach 1 yet")
