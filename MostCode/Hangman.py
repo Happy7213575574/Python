@@ -3,8 +3,7 @@ from random import choice
 from time import sleep
 
 #import needed data
-from MostCode.GlobalFunctions import Wordsdictionary, graphic
-
+from GlobalFunctions import Wordsdictionary, graphic
 
 # set up dictionary
 dictionary = Wordsdictionary

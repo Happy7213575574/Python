@@ -1,3 +1,5 @@
+global stringInput, numberInput
+
 def stringInput(reason):
   valid = False
   while valid != True:
@@ -21,6 +23,8 @@ def numberInput():
         print('That is not a number.') 
   return Input
 #end def
+
+global grpahic, CurrentDriversList, HistoricDriversList, CurrentTeamsList, HistoricalTeamsList, Wordsdictionary
 
 graphic = [
     ''' ''',
