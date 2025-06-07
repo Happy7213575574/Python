@@ -1,7 +1,8 @@
-def CollatzSequence():
-  # import  numberInput function
-  from GlobalFunctions import  numberInput
+import sys
+sys.path.append('/Happy7213575574/Python/MostCode')
+from GlobalFunctions import numberInput
 
+def CollatzSequence():
   end = False
   
   while end != True:
