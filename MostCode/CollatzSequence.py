@@ -1,5 +1,3 @@
-import sys
-sys.path.append('/Happy7213575574/Python/MostCode')
 from GlobalFunctions import numberInput
 
 def CollatzSequence():

@@ -1,3 +1,10 @@
+'''
+import sys
+sys.path.append('Happy7213575574/Python/MostCode') -change inside of brackets 
+
+How to import from a file in a different directory
+'''
+
 global stringInput, numberInput, CollatzSequence
 
 def stringInput(reason):
