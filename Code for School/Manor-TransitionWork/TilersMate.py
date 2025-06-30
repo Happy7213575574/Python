@@ -85,7 +85,7 @@ labourCost = time * labourPrice # caculate the total cost of labour
 
 totalCost = labourCost + cost # caculate the final cost without tax
 
-print(f"""The cost without VAT is {totalCost}.
+print(f"""The cost without VAT is {totalCost}. 
 
 The cost with VAT is {totalCost * VAT}.
-""")
+""") # output the cost with and without VAT
