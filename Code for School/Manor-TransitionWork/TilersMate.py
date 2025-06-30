@@ -31,7 +31,7 @@ valid = False # reset variable
 # create a while loop to get the width
 while valid != True: # use a loop to validate user input
     try: # check that the input is a number
-        width = int(input("What is the length of the floor to be tiled?: ")) # get the width of the room 
+        width = int(input("What is the width of the floor to be tiled?: ")) # get the width of the room 
         if str(length) != "": # perform a presence check
             valid = True # end the loop
         elif str(length) == "": # perform a presence check
@@ -91,3 +91,5 @@ print(f"""The cost without VAT is {totalCost}.
 
 The cost with VAT is {totalCost * VAT}.
 """) # output the cost with and without VAT
+
+# end of code
