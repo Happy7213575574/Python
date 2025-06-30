@@ -58,6 +58,8 @@ while valid != True: # use a loop to validate user input
         print("Please enter a number.") # tell the user that a number must be inputed
 # end while loop
 
+valid = False # reset variable
+
 # create a while loop to get the price of labour per hour
 while valid != True: # use a loop to validate user input
     try: # check that the input is a number
