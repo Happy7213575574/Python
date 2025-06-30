@@ -75,7 +75,8 @@ while valid != True: # use a loop to validate user input
 area = length * width # caculate the area of the room
 cost = area * price # caculate the price of the tiles
 
-if labourPrice % 2 == 0:
-    time = 1 * (area // 2)
-elif labourPrice % 2 == 1:
-    time = (1 * (area // 2)) + 1
+if area % 2 == 0: # check if the number is divisable by 2
+    time = 1 * (area // 2) # do the maths
+elif area % 2 == 1: # check if the number is divisable by 2
+    time = (1 * (area % 2)) + 1 # do the maths
+# end if
