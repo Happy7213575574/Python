@@ -25,3 +25,19 @@ while valid != True: # use a loop to validate user input
     except ValueError: # check the input can be a number
         print("Please enter a number.") # tell the user that a number must be inputed
 # end while loop
+
+valid = False # reset variable
+
+# create a while loop to get the width
+while valid != True: # use a loop to validate user input
+    try: # check that the input is a number
+        width = int(input("What is the length of the floor to be tiled?: ")) # get the length of the user
+        if str(length) != "": # perform a presence check
+            valid = True # end the loop
+        elif str(length) == "": # perform a presence check
+            print('You must enter a number') # tell the user that it can not be blank
+        else: # last resort for errors
+            print("An error has occured.") # tell the user something has gone wrong
+    except ValueError: # check the input can be a number
+        print("Please enter a number.") # tell the user that a number must be inputed
+# end while loop
