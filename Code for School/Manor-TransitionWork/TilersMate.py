@@ -58,5 +58,19 @@ while valid != True: # use a loop to validate user input
         print("Please enter a number.") # tell the user that a number must be inputed
 # end while loop
 
+# create a while loop to get the price of labour per hour
+while valid != True: # use a loop to validate user input
+    try: # check that the input is a number
+        labourPrice = int(input("What is the price of labour per hour?: ")) # get the price of labour per hour
+        if str(length) != "": # perform a presence check
+            valid = True # end the loop
+        elif str(length) == "": # perform a presence check
+            print('You must enter a number.') # tell the user that it can not be blank
+        else: # last resort for errors
+            print("An error has occured.") # tell the user something has gone wrong
+    except ValueError: # check the input can be a number
+        print("Please enter a number.") # tell the user that a number must be inputed
+# end while loop
+
 area = length * width # caculate the area of the room
 cost = area * price # caculate the price of the tiles
