@@ -58,3 +58,5 @@ while valid != True: # use a loop to validate user input
         print("Please enter a number.") # tell the user that a number must be inputed
 # end while loop
 
+area = length * width # caculate the area of the room
+cost = area * price # caculate the price of the tiles
