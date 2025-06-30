@@ -47,7 +47,7 @@ valid = False # reset variable
 # create a while loop to get the price per sqaure meter of tile
 while valid != True: # use a loop to validate user input
     try: # check that the input is a number
-        price = int(input("What is the price per sqaure meter of tile?: ")) # get the price per sqaure meter of tile
+        price = int(input("What is the price per sqaure meter of tile?: £")) # get the price per sqaure meter of tile
         if str(length) != "": # perform a presence check
             valid = True # end the loop
         elif str(length) == "": # perform a presence check
@@ -63,7 +63,7 @@ valid = False # reset variable
 # create a while loop to get the price of labour per hour
 while valid != True: # use a loop to validate user input
     try: # check that the input is a number
-        labourPrice = int(input("What is the price of labour per hour?: ")) # get the price of labour per hour
+        labourPrice = int(input("What is the price of labour per hour?: £")) # get the price of labour per hour
         if str(length) != "": # perform a presence check
             valid = True # end the loop
         elif str(length) == "": # perform a presence check
@@ -87,9 +87,9 @@ labourCost = time * labourPrice # caculate the total cost of labour
 
 totalCost = labourCost + cost # caculate the final cost without tax
 
-print(f"""The cost without VAT is {totalCost}. 
+print(f"""The cost without VAT is £{round(totalCost, 2)}. 
 
-The cost with VAT is {totalCost * VAT}.
+The cost with VAT is £{round((totalCost * VAT), 2)}.
 """) # output the cost with and without VAT
 
 # end of code
