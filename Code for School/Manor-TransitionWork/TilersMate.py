@@ -80,3 +80,12 @@ if area % 2 == 0: # check if the number is divisable by 2
 elif area % 2 == 1: # check if the number is divisable by 2
     time = (1 * (area % 2)) + 1 # do the maths
 # end if
+
+labourCost = time * labourPrice # caculate the total cost of labour
+
+totalCost = labourCost + cost # caculate the final cost without tax
+
+print(f"""The cost without VAT is {totalCost}.
+
+The cost with VAT is {totalCost * VAT}.
+""")
