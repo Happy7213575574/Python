@@ -15,7 +15,7 @@ valid = False # to control "while" loops
 # create a while loop to get the length
 while valid != True: # use a loop to validate user input
     try: # check that the input is a number
-        length = int(input("What is the length of the floor to be tiled?: ")) # get the length of the user
+        length = int(input("What is the length of the floor to be tiled?: ")) # get the length of the room
         if str(length) != "": # perform a presence check
             valid = True # end the loop
         elif str(length) == "": # perform a presence check
@@ -31,7 +31,7 @@ valid = False # reset variable
 # create a while loop to get the width
 while valid != True: # use a loop to validate user input
     try: # check that the input is a number
-        width = int(input("What is the length of the floor to be tiled?: ")) # get the length of the user
+        width = int(input("What is the length of the floor to be tiled?: ")) # get the width of the room 
         if str(length) != "": # perform a presence check
             valid = True # end the loop
         elif str(length) == "": # perform a presence check
@@ -44,10 +44,10 @@ while valid != True: # use a loop to validate user input
 
 valid = False # reset variable
 
-# create a while loop to get the price per tile
+# create a while loop to get the price per sqaure meter of tile
 while valid != True: # use a loop to validate user input
     try: # check that the input is a number
-        price = int(input("What is the price per tile?: ")) # get the length of the user
+        price = int(input("What is the price per sqaure meter of tile?: ")) # get the price per sqaure meter of tile
         if str(length) != "": # perform a presence check
             valid = True # end the loop
         elif str(length) == "": # perform a presence check
@@ -57,3 +57,4 @@ while valid != True: # use a loop to validate user input
     except ValueError: # check the input can be a number
         print("Please enter a number.") # tell the user that a number must be inputed
 # end while loop
+
