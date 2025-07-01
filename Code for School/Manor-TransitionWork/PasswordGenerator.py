@@ -13,8 +13,10 @@ o Display the suggested password
 from random import randint as r
 
 valid = False
+password = ""
 
 letters = [
+# 0   1   2   3   4   5   6   7   8   9  10  11  12   13 14  15  16  17  18  19 20  21  22  23  24  25 
 ["q","w","e","r","t",'y','u','i','o','p','a','s','d','f','g','h','j','k','l','z''x','c','v','b','n','m'],
 ['Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M']
 ]
@@ -44,10 +46,17 @@ while valid != False:
 # end while
 
 if strength == "weak":
-    
+    for i in range(length):
+        listNum = r(0,1)
+        listPos = r(0,25)
+        letter = letters[listNum],[listPos]
+        password += letter
 elif strength == "medium":
-    
+    print('Not coded for yet')
 elif strength == "strong":
-    
+    print('Not coded for yet')
 else:
     print("You did not pick one of the options or an error has occured")
+# end if
+
+print(f"The password is {password}")
