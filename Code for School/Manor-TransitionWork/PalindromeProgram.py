@@ -19,3 +19,7 @@ while valid != True:
         print('A error has occured.')
     # end if
 # end while
+
+print(f"""There are {len(word)} characters in the word, {word}
+The word in reverse is {word[:-1]}
+    """)
