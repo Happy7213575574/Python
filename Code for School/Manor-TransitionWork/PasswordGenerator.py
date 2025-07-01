@@ -10,3 +10,18 @@ strength
 character ( + - / & ! ) 
 o Display the suggested password 
 """
+
+valid = False
+
+while valid != True:
+    try:
+        length = int(input("How long should the password be?: "))
+        if length == "":
+            print("Please enter a number")
+        elif length != "":
+            valid = True
+        # end if
+    except ValueError:
+        print("Please enter a number")
+    # end try
+# end while
