@@ -7,7 +7,7 @@ strength
     ▪ Weak passwords should be all letters  
     ▪ Medium passwords should include at least one number  
     ▪ Strong passwords should include at least one number and one special 
-character ( + - / & ! ) 
+character ( +, -, /, &, !) 
 o Display the suggested password 
 """
 from random import randint as r
@@ -18,6 +18,7 @@ letters = [
 ["q","w","e","r","t",'y','u','i','o','p','a','s','d','f','g','h','j','k','l','z''x','c','v','b','n','m'],
 ['Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M']
 ]
+numbers = ['1','2','3','4','5','6','7','8','9']
 
 while valid != True:
     try:
