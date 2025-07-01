@@ -20,11 +20,11 @@ while valid != True:
     # end if
 # end while
 
-print(f"""There are {len(word)} characters in the word, {word}
-The word in reverse is {word[::-1]}
+print(f"""There are {len(word)} characters in the word, {word.capitalize()}
+The word in reverse is {word[::-1].capitalize()}
     """)
 
 if word[::-1] == word:
-    print("The word is a palindrome.")
+    print(f"The word, {word.capitalize()}, is a palindrome.")
 elif word[::-1] != word:
-    print("The word is not a palindrome.")
+    print(f"The word, {word.capitalize()}, is not a palindrome.")
