@@ -10,7 +10,7 @@ backwards and forward)
 valid = False
 
 while valid != True:
-    word = input('Please enter a word: ')
+    word = input('Please enter a word: ').lower()
     if word != '':
         valid = True
     elif word == '':
@@ -21,5 +21,10 @@ while valid != True:
 # end while
 
 print(f"""There are {len(word)} characters in the word, {word}
-The word in reverse is {word[:-1]}
+The word in reverse is {word[::-1]}
     """)
+
+if word[::-1] == word:
+    print("The word is a palindrome.")
+elif word[::-1] != word:
+    print("The word is not a palindrome.")
