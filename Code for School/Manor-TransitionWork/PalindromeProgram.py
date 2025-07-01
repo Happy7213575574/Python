@@ -7,3 +7,15 @@ o Tells the user whether the word is a palindrome or not (it can be spelled the 
 backwards and forward) 
 """
 
+valid = False
+
+while valid != True:
+    word = input('Please enter a word: ')
+    if word != '':
+        valid = True
+    elif word == '':
+        print('Please enter a word')
+    else:
+        print('A error has occured.')
+    # end if
+# end while
