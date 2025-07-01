@@ -49,8 +49,8 @@ if strength == "weak":
     for i in range(length):
         listNum = r(0,1)
         listPos = r(0,25)
-        letter = letters[listNum],[listPos]
-        password += letter
+        letter = letters[listNum][listPos]
+        password = password + letter
 elif strength == "medium":
     print('Not coded for yet')
 elif strength == "strong":
