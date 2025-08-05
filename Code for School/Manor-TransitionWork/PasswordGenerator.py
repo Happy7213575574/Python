@@ -37,7 +37,7 @@ while valid != True:
 # end while
 
 while valid != False:
-    strength = input("How strong would you like the password (weak, medium or strong)?:").lower()
+    strength = input("How strong would you like the password (weak, medium or strong)?: ").lower()
     if strength == "weak" or strength == "medium" or strength == "strong":
         valid = False
     elif strength != "weak" or strength != "medium" or strength != "strong":
