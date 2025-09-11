@@ -1,0 +1,55 @@
+Start,Finish Straight, 250
+
+Turn 1, R120 E45 R
+
+Turn 2, R100 E35 L 
+
+Turn 3, R60 E90 R 
+
+Straight, 40
+
+Turn 4, R-60 E110 L
+
+Turn 5, R80 E60 L
+
+Turn 6, 100 80 L
+
+Turn 7, R90 E80 R
+
+Straight, 300
+
+Turn 8, R70 E90 R 
+
+Turn 9, R90 E60 R 
+
+National Pits, 500
+
+Turn 10, 100 40 L 
+
+Turn 11, -100 60 R 
+
+Turn 12, 120 40 L 
+
+Straight, 440
+
+Turn 13, -120 80 R 
+
+Straight, 70
+
+Turn 14A, 80 60 L
+Turn 14B, -80 60 R
+
+Straight, 40
+
+Turn 15, -100 70 R
+
+T16, -130 50 R
+
+T17, -160 50 R
+
+T18, -180 35 R
+
+Straight 40
+
+Right = + number
+Left = - number

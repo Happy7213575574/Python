@@ -1,0 +1,26 @@
+Sector 1 (Red) Start to part of Wellington Correct
+Sector 2 (Blue) End of wellington to Straight after T14
+Welligton Good
+T6 A - 
+T6 B - 
+
+
+
+
+
+
+
+
+STR Good
+T7 A - Good
+T7 B - Good
+STR2 Too long
+T8 - Too sharp
+#Wrong exit angle but right direction and right turn angle
+National Pits Good
+T9 -
+T10 -
+T11 -
+T12 -
+T13 -
+T14 -
