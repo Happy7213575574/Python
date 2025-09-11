@@ -119,7 +119,7 @@ def Silverstone():
     t.write("T9")
     
     #S2
-    t.forward(150)
+    t.forward(200)
     print("S2")
     t.write("S2")
     
@@ -127,13 +127,6 @@ def Silverstone():
     Circle(-180, 60)
     print("T10")
     t.write("T10")
-    
-    """
-    #Straight
-    t.forward(440)
-    print("STRA2")
-    t.write("STRA2")
-    """
     
     #T11
     Circle(-50, 60)
@@ -150,10 +143,20 @@ def Silverstone():
     print("T12")
     t.write("T12")
     
+    #Straight
+    t.forward(30)
+    print("STRAIG")
+    t.write("STRAIG")
+    
     #T13
     Circle(-50, 60)
     print("T13")
     t.write("T13")
+    
+    #Straight
+    t.forward(60)
+    print("STRAIG2")
+    t.write("STRAIG2")
     
     #T14
     Circle(50, 60)
