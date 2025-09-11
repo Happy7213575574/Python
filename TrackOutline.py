@@ -163,40 +163,50 @@ def Silverstone():
     print("T14")
     t.write("T14")
     
-    
-    """
+    #Sector 3
     t.color("Yellow")
+    
     #Straight
-    t.forward(440)
+    t.forward(700)
     print("ST2")
     t.write("ST2")
 
     #T15
     Circle(-100, 70)
-    print("T13")
-    t.write("T13")
-    
-    #T16
-    Circle(-130, 50)
-    print("T14")
-    t.write("T14")
-    
-    #T17
-    Circle(-160, 50)
     print("T15")
     t.write("T15")
     
-    #T18
-    Circle(-180, 35)
+    #Straight
+    t.forward(50)
+    print("STRAGIH")
+    t.write("STRAGIH")
+    
+    #T16
+    Circle(-130, 60)
     print("T16")
     t.write("T16")
+    
+    #T17
+    Circle(-163, 50)
+    print("T17")
+    t.write("T17")
+    
+    """"
+    #T18
+    Circle(-180, 35)
+    print("T18")
+    t.write("T18")
+    """
     
     #Straight
     t.forward(40)
     print("End")
     t.write("End")
+    
+    t.penup()
+    t.right(90)
+    t.forward(1000)
 #end def  
-"""
 
 #screen.addshape("F1Sprite1.gif")
 
